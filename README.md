@@ -39,6 +39,12 @@ Start the database container using docker:
 bun run start:dev:db
 ```
 
+Migrate the database configuration using drizzle-kit:
+
+```sh
+bun run db:migrate
+```
+
 ## Frontend
 
 apps/frontend
