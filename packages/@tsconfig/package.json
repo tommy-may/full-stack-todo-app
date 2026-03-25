@@ -1,0 +1,7 @@
+{
+  "name": "@tsconfig/recommended",
+  "private": true,
+  "exports": {
+    ".": "./tsconfig.json"
+  }
+}

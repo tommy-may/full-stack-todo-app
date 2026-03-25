@@ -1,0 +1,52 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/drizzle-migration": true
+  },
+
+  // Extensions
+
+  "eslint.validate": [
+    "json",
+    "jsonc",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "markdown",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ],
+
+  "cSpell.words": [
+    "color",
+    "contenteditable",
+    "extrabold",
+    "fontsource",
+    "merriweather",
+    "Millis",
+    "oklch",
+    "remixicon",
+    "shadcn",
+    "tabler",
+    "treeify",
+    "vars"
+  ]
+}

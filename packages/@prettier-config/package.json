@@ -1,0 +1,12 @@
+{
+  "name": "@prettier-config/recommended",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "workspace:*",
+    "prettier": "^3.8.1"
+  }
+}

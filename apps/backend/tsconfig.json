@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/recommended",
+  "compilerOptions": {
+    "types": ["bun"],
+
+    "jsxImportSource": "hono/jsx",
+
+    // Path Alias
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/config/*", "./src/*"]
+    },
+
+    // Bundler mode
+    "composite": true,
+    "allowImportingTsExtensions": false,
+    "noEmit": false
+  },
+  "exclude": ["eslint.config.mjs", "prettier.config.mjs"]
+}

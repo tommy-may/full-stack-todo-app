@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "private": true,
+  "scripts": {
+    "start:dev:broken": "bun run --filter \"./apps/*\" start:dev",
+    "start:dev": "concurrently \"bun run --cwd apps/backend start:dev\" \"bun run --cwd apps/frontend start:dev\"",
+    "lint": "bun run --filter \"./apps/*\" lint"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
