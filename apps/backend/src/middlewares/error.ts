@@ -18,7 +18,7 @@ export const errorHandler = (e: Error, c: Context<AppEnv>) => {
         success: false,
         name: e.name,
         message: e.message,
-        error: e.data,
+        error: e.data || null,
       } satisfies ErrorResponseBody,
       e.status,
     );
